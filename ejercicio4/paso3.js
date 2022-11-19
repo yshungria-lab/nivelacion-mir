@@ -7,7 +7,7 @@ y retorne la suma de todos los números desde 1 hasta ese número:
 
 function suma( numero ) {
     let resultado = 0;
-    for ( let i = 1; i <= numero; i++ ) {
+    for ( let i = 1; i <= numero; i++) {
         resultado += i;
     }
     return resultado;
