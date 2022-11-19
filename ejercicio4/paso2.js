@@ -7,7 +7,7 @@ Utiliza la formula para retornar el BMI correspondiente.
 */
 
 function bmi( peso , altura ) {
-    return peso / (Math.pow(altura, 2));
+    return peso / altura ** 2;
 }
 
 console.log(bmi(65, 1.8));
