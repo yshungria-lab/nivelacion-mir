@@ -23,4 +23,4 @@ function calcularColor( numero ) {
     }
 }
 
-console.log(calcularColor(2));
+console.log(calcularColor(50));
